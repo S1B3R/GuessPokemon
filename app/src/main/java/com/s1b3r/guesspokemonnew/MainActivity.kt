@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        UtilsWeb.getPkm(6){
+        UtilsWeb.getPkm(151){
             Log.d("","")
         }
 
