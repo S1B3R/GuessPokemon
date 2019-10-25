@@ -72,16 +72,3 @@ object UtilsWeb{
 
     }
 }
-//            val jsonReader = JsonReader(streamReader)
-//            var name = ""
-//            var imageUrl = ""
-//            jsonReader.beginObject()
-//            while (jsonReader.hasNext()){
-//                val key = jsonReader.nextName()
-//                when(key){
-//                    "name" -> name = jsonReader.nextString()
-//                    "front_default","sprites" -> imageUrl = jsonReader.nextString()
-//                    else -> jsonReader.skipValue()
-//                }
-//            }
-//            jsonReader.close()
